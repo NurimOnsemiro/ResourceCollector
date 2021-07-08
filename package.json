@@ -1,0 +1,20 @@
+{
+  "name": "resourcecollector",
+  "version": "1.0.0",
+  "description": "컴퓨터 리소스 수집기",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NurimOnsemiro/ResourceCollector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NurimOnsemiro/ResourceCollector/issues"
+  },
+  "homepage": "https://github.com/NurimOnsemiro/ResourceCollector#readme"
+}
