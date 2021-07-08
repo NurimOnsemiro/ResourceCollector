@@ -2,9 +2,11 @@
   "name": "resourcecollector",
   "version": "1.0.0",
   "description": "컴퓨터 리소스 수집기",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "pkg-win": "tsc && pkg . --targets node14-win-x64 --output ./build/ResourceCollector.exe"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/NurimOnsemiro/ResourceCollector/issues"
   },
-  "homepage": "https://github.com/NurimOnsemiro/ResourceCollector#readme"
+  "homepage": "https://github.com/NurimOnsemiro/ResourceCollector#readme",
+  "bin": {
+    "app": "./dist/src/app.js"
+  },
+  "dependencies": {
+    "systeminformation": "^5.7.7"
+  }
 }
