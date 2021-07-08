@@ -24,5 +24,8 @@
   },
   "dependencies": {
     "systeminformation": "^5.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.1"
   }
 }
