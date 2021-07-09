@@ -1,31 +1,30 @@
 {
-  "name": "resourcecollector",
-  "version": "1.0.0",
-  "description": "컴퓨터 리소스 수집기",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "tsc": "tsc",
-    "pkg-win": "tsc && pkg . --targets node14-win-x64 --output ./build/ResourceCollector.exe"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NurimOnsemiro/ResourceCollector.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NurimOnsemiro/ResourceCollector/issues"
-  },
-  "homepage": "https://github.com/NurimOnsemiro/ResourceCollector#readme",
-  "bin": {
-    "app": "./dist/src/app.js"
-  },
-  "dependencies": {
-    "systeminformation": "^5.7.7"
-  },
-  "devDependencies": {
-    "@types/node": "^16.0.1"
-  }
+    "name": "resourcecollector",
+    "version": "1.0.0",
+    "description": "컴퓨터 리소스 수집기",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "pkg-win": "tsc && pkg . --targets node14-win-x64 --output ./build/ResourceCollector.exe"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NurimOnsemiro/ResourceCollector.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/NurimOnsemiro/ResourceCollector/issues"
+    },
+    "homepage": "https://github.com/NurimOnsemiro/ResourceCollector#readme",
+    "bin": {
+        "app": "./dist/src/app.js"
+    },
+    "dependencies": {
+        "systeminformation": "^5.7.7"
+    },
+    "devDependencies": {
+        "@types/node": "^16.0.1"
+    }
 }
